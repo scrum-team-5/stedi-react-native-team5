@@ -31,15 +31,27 @@ export function HelloRyan(props){
     return(
         <View style={styles.login}>
             <Text>Hello Ryan</Text>
-            <Button title="ryanButton" onPress={()=>props.setUserLoggedIn(true)}></Button>
+            <Button title="ryanButton" onPress={()=>console.log("Hello Ryan")}></Button>
         </View>
     );
 }
+
 export function HelloSamantha(props){
     return(
         <View style={styles.login}>
             <Text>Hello Samantha</Text>
             <Button title="SamanthaButton" onPress={()=>props.setUserLoggedIn(true)}></Button>
+   </View>
+
+    );
+}
+// make a button that will display "Hello Brian" when pressed
+export function HelloBrian(props){
+    return(
+        <View style={styles.login}>
+            <Text>Brian's Button</Text>
+            <Button title="BrianButton" onPress= {console.log("Hello Brian")}></Button>
+
         </View>
 
     );
