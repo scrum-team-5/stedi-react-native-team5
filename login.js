@@ -31,7 +31,7 @@ export function HelloRyan(props){
     return(
         <View style={styles.login}>
             <Text>Hello Ryan</Text>
-            <Button title="ryanButton" onPress={()=>props.setUserLoggedIn(true)}></Button>
+            <Button title="ryanButton" onPress={()=>console.log("Hello Ryan")}></Button>
         </View>
     );
 }
