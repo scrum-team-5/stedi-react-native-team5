@@ -40,7 +40,7 @@ export function HelloSamantha(props){
     return(
         <View style={styles.login}>
             <Text>Hello Samantha</Text>
-            <Button title="SamanthaButton" onPress={()=>props.setUserLoggedIn(true)}></Button>
+            <Button title="SamanthaButton" onPress={()=>console.log("Hello Samantha")}></Button>
    </View>
 
     );
