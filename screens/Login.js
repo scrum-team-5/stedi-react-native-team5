@@ -6,6 +6,8 @@ export default function Login(props){
         <View style={styles.login}>
             <Text>This is the Login Screen</Text>
             <Button title="Log In" onPress={()=>props.setUserLoggedIn(true)}></Button>
+            <Text>Hello Ryan</Text>
+            <Button title="ryanButton" onPress={()=>console.log("Hello Ryan")}></Button>
         </View>
 
     );
@@ -25,13 +27,3 @@ const styles = StyleSheet.create({
         
       },
 })
-
-// button that will display "Hello Ryan" when pressed
-export function HelloRyan(props){
-    return(
-        <View style={styles.login}>
-            <Text>Hello Ryan</Text>
-            <Button title="ryanButton" onPress={()=>console.log("Hello Ryan")}></Button>
-        </View>
-    );
-} 
