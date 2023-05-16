@@ -36,12 +36,22 @@ export function HelloRyan(props){
     );
 }
 
+export function HelloSamantha(props){
+    return(
+        <View style={styles.login}>
+            <Text>Hello Samantha</Text>
+            <Button title="SamanthaButton" onPress={()=>props.setUserLoggedIn(true)}></Button>
+   </View>
+
+    );
+}
 // make a button that will display "Hello Brian" when pressed
 export function HelloBrian(props){
     return(
         <View style={styles.login}>
             <Text>Brian's Button</Text>
             <Button title="BrianButton" onPress= {console.log("Hello Brian")}></Button>
+
         </View>
 
     );
