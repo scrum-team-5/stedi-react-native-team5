@@ -35,3 +35,14 @@ export function HelloRyan(props){
         </View>
     );
 }
+
+
+// button that will display "Hello Ryan" when pressed
+export function HelloSamantha(props){
+    return(
+        <View style={styles.login}>
+            <Text>Hello Samantha</Text>
+            <Button title="SamanthaButton" onPress={()=>props.setUserLoggedIn(true)}></Button>
+        </View>
+    );
+}
