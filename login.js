@@ -25,3 +25,13 @@ const styles = StyleSheet.create({
         
       },
 })
+
+// button that will display "Hello Ryan" when pressed
+export function HelloRyan(props){
+    return(
+        <View style={styles.login}>
+            <Text>Hello Ryan</Text>
+            <Button title="ryanButton" onPress={()=>props.setUserLoggedIn(true)}></Button>
+        </View>
+    );
+}
