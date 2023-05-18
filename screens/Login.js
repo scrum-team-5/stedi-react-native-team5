@@ -7,8 +7,11 @@ export default function Login(props){
             <Text>This is the Login Screen</Text>
             
             <Button title="Seth Button" onPress={()=>console.log("Hello Seth!")}></Button>
+            
+            <Button title="Matias Button" onPress={()=>console.log("Hello Matias!")}></Button>
 
         </View>
+        
 
     );
 }
