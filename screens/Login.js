@@ -9,6 +9,8 @@ export default function Login(props){
             <Button title="Seth Button" onPress={()=>console.log("Hello Seth!")}></Button>
             
             <Button title="Matias Button" onPress={()=>console.log("Hello Matias!")}></Button>
+            
+            <Button title="Matias Button" onPress={()=>console.log("Hello Alejandro!")}></Button>
 
         </View>
         
