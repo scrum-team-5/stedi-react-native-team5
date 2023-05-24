@@ -1,6 +1,10 @@
 {
   "dependencies": {
+<<<<<<< HEAD
     "@expo/ngrok": "^4.1.1",
+=======
+    "@expo/ngrok": "^4.1.0",
+>>>>>>> b5c44c53707b5e07f5fb3dd62de656f3f0ec8677
     "@expo/vector-icons": "^13.0.0",
     "@react-native-async-storage/async-storage": "^1.17.10",
     "@react-navigation/material-bottom-tabs": "^6.0.9",
